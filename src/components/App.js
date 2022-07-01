@@ -19,7 +19,10 @@ function App() {
         App
       </h1>
       <Button>
-        Test
+        Primary button
+      </Button>
+      <Button secondary>
+        Secondary button
       </Button>
     </>
 
