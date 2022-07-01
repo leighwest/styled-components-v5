@@ -1,9 +1,12 @@
+import { PageLayout } from "components/common"
 
 
-export default Login = () => {
+const Login = () => {
   return (
-    <div>
+    <PageLayout>
       Login
-    </div>
+    </PageLayout>
   )
 }
+
+export default Login

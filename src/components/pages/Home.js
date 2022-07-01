@@ -1,11 +1,14 @@
+import { PageLayout } from "components/common"
 
 
 
 
-export default Home = () => {
+const Home = () => {
   return (
-    <div>
+    <PageLayout>
       Home
-    </div>
+    </PageLayout>
   )
 }
+
+export default Home
