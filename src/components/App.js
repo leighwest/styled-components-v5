@@ -1,5 +1,7 @@
-import { Button } from "components/common";
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import { createGlobalStyle } from 'styled-components';  // applies to entire project
+
+import { Button } from "components/common";
 
 const GlobalStyle = createGlobalStyle`
  body {
@@ -23,6 +25,9 @@ function App() {
       </Button>
       <Button secondary>
         Secondary button
+      </Button>
+      <Button large>
+        Large button
       </Button>
     </>
 
