@@ -8,8 +8,6 @@ const rotation = keyframes`
   to{
     transform: rotate(360deg);
   }
-
-
 `
 
 const Spinner = styled.div`
